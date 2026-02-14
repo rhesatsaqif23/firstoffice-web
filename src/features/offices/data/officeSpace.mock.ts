@@ -3,8 +3,8 @@ import { OfficeSpace } from "../types/officeSpace.types";
 export const officeSpaces: OfficeSpace[] = [
   {
     id: 1,
-    title: "Angga Park Central Master Silicon Valley Star Class",
-    slug: "angga-park-central-master-silicon-valley-star-class",
+    title: "GoWork Jakarta",
+    slug: "gowork-jakarta",
     price: 18560000,
     duration: "20 days",
     location: "Jakarta Pusat",
@@ -26,7 +26,7 @@ export const officeSpaces: OfficeSpace[] = [
       "Extra Snacks",
       "Compact",
     ],
-    isFullyBooked: false,
+    isFullyBooked: true,
     salesContacts: [
       {
         name: "Masayoshi",
@@ -45,16 +45,16 @@ export const officeSpaces: OfficeSpace[] = [
     title: "Pakuwon City Center Surabaya",
     slug: "pakuwon-city-center-surabaya",
     price: 11650000,
-    duration: "20 days",
+    duration: "15 days",
     location: "Surabaya",
     rating: 4.8,
     address: "Dekat gedung BWA HQ di Surabaya no 102939",
-    image: "/assets/images/thumbnails/thumbnails-1.png",
+    image: "/assets/images/thumbnails/thumbnails-2.png",
     images: [
       "/assets/images/thumbnails/thumbnail-details-2.png",
       "/assets/images/thumbnails/thumbnail-details-3.png",
     ],
-    tags: ["Popular"],
+    tags: ["Cheaper"],
     about:
       "Whether you need quiet private space away from distractions or collaborate in person...",
     features: ["Global Event", "Privacy", "Extra Snacks", "Compact"],
@@ -67,6 +67,11 @@ export const officeSpaces: OfficeSpace[] = [
       },
       {
         name: "Amara Oivina",
+        role: "Sales Manager",
+        photo: "/assets/images/photos/photo-2.png",
+      },
+      {
+        name: "Ikuza Oivina",
         role: "Sales Manager",
         photo: "/assets/images/photos/photo-2.png",
       },
